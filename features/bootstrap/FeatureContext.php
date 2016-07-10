@@ -22,15 +22,15 @@ class FeatureContext implements Context, SnippetAcceptingContext
      */
     public function __construct()
     {
-        $calculator = new Calculator();
+        $this->calculator = new Calculator();
     }
 
     /**
-     * @Given I have entered :arg1 into the calculator
+     * @Given I have entered :number into the calculator
      */
-    public function iHaveEnteredIntoTheCalculator($arg1)
+    public function iHaveEnteredIntoTheCalculator($number)
     {
-        throw new PendingException();
+        $this->calculator->addNumber($number);
     }
 
     /**
