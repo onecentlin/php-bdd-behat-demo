@@ -20,4 +20,28 @@ class FeatureContext implements Context, SnippetAcceptingContext
     public function __construct()
     {
     }
+
+    /**
+     * @Given I have entered :arg1 into the calculator
+     */
+    public function iHaveEnteredIntoTheCalculator($arg1)
+    {
+        throw new PendingException();
+    }
+
+    /**
+     * @When I press add
+     */
+    public function iPressAdd()
+    {
+        throw new PendingException();
+    }
+
+    /**
+     * @Then the result should be :arg1 on the screen
+     */
+    public function theResultShouldBeOnTheScreen($arg1)
+    {
+        throw new PendingException();
+    }
 }
