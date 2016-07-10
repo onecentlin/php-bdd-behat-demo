@@ -1,0 +1,12 @@
+{
+    "name": "winnielin/bdd-behat-demo",
+    "authors": [
+        {
+            "name": "Winnie Lin",
+            "email": "onecentlin@gmail.com"
+        }
+    ],
+    "require": {
+        "behat/behat": "^3.1"
+    }
+}
