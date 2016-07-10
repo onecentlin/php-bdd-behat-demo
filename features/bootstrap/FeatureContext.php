@@ -42,10 +42,10 @@ class FeatureContext implements Context, SnippetAcceptingContext
     }
 
     /**
-     * @Then the result should be :arg1 on the screen
+     * @Then the result should be :result on the screen
      */
-    public function theResultShouldBeOnTheScreen($arg1)
+    public function theResultShouldBeOnTheScreen($result)
     {
-        throw new PendingException();
+        $this->calculator->getTotal();
     }
 }
