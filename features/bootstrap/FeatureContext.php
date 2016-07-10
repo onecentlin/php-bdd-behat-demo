@@ -38,7 +38,7 @@ class FeatureContext implements Context, SnippetAcceptingContext
      */
     public function iPressAdd()
     {
-        throw new PendingException();
+        $this->calculator->doCalculation();
     }
 
     /**
