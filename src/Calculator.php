@@ -25,4 +25,9 @@ class Calculator
             $this->total += $number;
         }
     }
+
+    public function getTotal()
+    {
+        return $this->total;
+    }
 }
