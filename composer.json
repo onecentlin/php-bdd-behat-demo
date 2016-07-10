@@ -8,5 +8,10 @@
     ],
     "require": {
         "behat/behat": "^3.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Ocp\\": "src"
+        }
     }
 }
